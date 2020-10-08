@@ -1,10 +1,22 @@
 body
 {
-  background-color: #ffccff;
   text-align: center;
   padding: 10px;
-  font-family: "Arial","Helvetica","sans-serif"
-  text-align: center
+  font-family: "Arial","Helvetica","sans-serif";
+  text-align: center;
+  background-image: url(pictures/FromSpace.jpg);
+  background-color: #ffccff;
+}
+
+#moreLogoeyText
+{
+    font-family: "Arial","Helvetica","sans-serif";
+    color:green;
+}
+
+.plainText
+{
+    color:blue;
 }
 
 @media screen and (max-width: 992px)
