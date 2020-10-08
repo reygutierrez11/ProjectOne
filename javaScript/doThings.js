@@ -3,5 +3,5 @@ function myFunction()
   document.getElementById("demo").innerHTML = "My First JavaScript";
 }
 
-var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+var d = new Date();
 document.getElementById("date").innerHTML = d;
