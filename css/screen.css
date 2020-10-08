@@ -4,7 +4,9 @@ body
   padding: 10px;
   font-family: "Arial","Helvetica","sans-serif";
   text-align: center;
-  background-image: url(pictures/FromSpace.jpg);
+  background-image: url(../pictures/Mural.jpg), url(../pictures/FromSpace.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position:center top;
   background-color: #ffccff;
 }
 
@@ -34,5 +36,7 @@ body
   {
     background-color:#ff9966;
     text-align: center;
+    background-position: 50% 50%;
+    background width: 100%;
   }
 }
