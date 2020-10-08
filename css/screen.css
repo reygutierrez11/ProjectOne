@@ -13,7 +13,7 @@ body
 div
 {
     background-color: blue;
-    background: rgba(230, 230, 230, 0.7);
+    background: rgba(230, 230, 230, 0.9);
     align: center;
     width:78%;
     margin: auto;
@@ -23,14 +23,14 @@ div
 #moreLogoeyText
 {
     font-family: "Lucida Console", Courier, monospace;
-    color:green;
+    color:rgb(0, 230, 230);
+    font-size: large;
 }
 
-.plainText
+h1
 {
-    color:blue;
+    font-size: large;
 }
-
 @media screen and (max-width: 992px)
 {
   body
