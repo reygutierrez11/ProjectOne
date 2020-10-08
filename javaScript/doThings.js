@@ -1,7 +1,7 @@
+function myFunction()
+{
+  document.getElementById("demo").innerHTML = "My First JavaScript";
+}
 
-const cb = document.querySelector('#accept');
-const btn = document.querySelector('#btn');
-btn.onclick = () => {
-    const result = cb.value;
-    alert(result);
-};
+var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+document.getElementById("date").innerHTML = d;
