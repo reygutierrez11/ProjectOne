@@ -1,6 +1,6 @@
 function myFunction()
 {
-  document.getElementById("demo").innerHTML = "My First JavaScript";
+  document.getElementById("button").innerHTML = "Thank you for joining the community!";
 }
 
 var d = new Date();

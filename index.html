@@ -7,6 +7,7 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
   <script async src="javaScript/doThings.js"></script>
+  <image></image>
 </head>
 <body>
 <h1 id = "title1">Have an interest in the arts?</h1>
@@ -15,6 +16,9 @@
 
 <p>Simply fill out the information to receive resources that will show you how to
 enjoy, support, and participate in the Chicago Community for Artists</p>
+<p>Now</p>
+<p id = "date"></p>
+<p>is good as any time to join</p>
 <form action="/action_page.php" method="get" autocomplete = on>
   <label for="medium">Art Medium:</label>
   <input type="text" id="medium" name="medium" placeholder="Visual, Writen, Musical"><br><br>
@@ -24,11 +28,11 @@ enjoy, support, and participate in the Chicago Community for Artists</p>
   <input type="tel" id="Anumber" name="Anumber" pattern="[0-9]{10}" placeholder="1231231234"><br><br>
   <label for="dob">Date of Birth:</label>
   <input type="date" id="dob" name="dob"><br><br>
-  <input type="submit" value="Submit">
+  <button type="button" onclick="myFunction()">Submit</button>
 </form>
 
-<p id = "demo">A paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
-<p id = "date"></p>
+<p id = "button">Hit submit once your information is filled in</p>
+
+
 </body>
 </html>
