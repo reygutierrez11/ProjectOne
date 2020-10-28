@@ -23,7 +23,7 @@ div
 #moreLogoeyText
 {
     font-family: "Lucida Console", Courier, monospace;
-    color:rgb(0, 230, 230);
+    color:#0052cc;
     font-size: large;
 }
 
@@ -53,16 +53,11 @@ h1
 
   form
   {
-    text-align:left;
-  }
-
-  #button
-  {
-    text-align: center;
-  }
-
-  button
-  {
     text-align:center;
+  }
+
+  input
+  {
+    width:95%;
   }
 }
