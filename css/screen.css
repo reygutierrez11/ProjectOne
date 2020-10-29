@@ -18,6 +18,10 @@ div
     margin: auto;
     line-height:1.6;
 }
+input
+{
+    width:98%;
+}
 #moreLogoeyText
 {
     font-family: 'Syne Mono', monospace;
@@ -38,7 +42,7 @@ h1
   form
   {
     text-align:center;
-    line-height:2.6;
+    line-height:2.4;
   }
   input
   {
