@@ -1,37 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 body
 {
   text-align: center;
   padding: 10px;
   font-family: "Arial","Helvetica","sans-serif";
-  text-align: center;
   background-image: url(../pictures/Mural.jpg), url(../pictures/FromSpace.jpg);
   background-repeat: no-repeat, repeat;
   background-position:center top;
   background-color: #ffccff;
-  line-height: 1.6;
+  line-height: 2.8;
 }
-
 div
 {
     background-color: blue;
     background: rgba(230, 230, 230, 0.9);
     width:78%;
     margin: auto;
+    line-height:1.6;
 }
-
-
 #moreLogoeyText
 {
-    font-family: "Lucida Console", Courier, monospace;
+    font-family: 'Syne Mono', monospace;
     color:#0052cc;
     font-size: large;
 }
-
 h1
 {
     font-size: large;
 }
-
 @media screen and (max-width: 992px)
 {
   body
@@ -39,8 +35,16 @@ h1
     background-color: #ffcccc;
     text-align: center;
   }
+  form
+  {
+    text-align:center;
+    line-height:2.6;
+  }
+  input
+  {
+    width:95%;
+  }
 }
-
 @media screen and (max-width: 600px)
 {
   body
@@ -50,13 +54,11 @@ h1
     background-size: cover;
     background-repeat: repeat-y;
   }
-
   form
   {
     text-align:center;
     line-height:2.6;
   }
-
   input
   {
     width:95%;
